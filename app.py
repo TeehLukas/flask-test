@@ -6,6 +6,8 @@ app = Flask(__name__)
 def home():
     return "Hello World!"
 
+def bye():
+    print("Bye!")
 
 
 if __name__ == '__main__':
