@@ -9,6 +9,8 @@ def home():
 def bye():
     print("Bye!")
 
+def byebye():
+    print("Bye Bye!")
 
 if __name__ == '__main__':
     app.run(debug=True)
